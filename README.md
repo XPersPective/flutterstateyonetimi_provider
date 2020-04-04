@@ -1,4 +1,4 @@
-# flutternewpatter
+# flutterstateyonetimi_provider
 
 A new Flutter project.
 
