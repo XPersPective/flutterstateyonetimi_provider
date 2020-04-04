@@ -54,7 +54,6 @@ import 'OpStWsCounter.dart';
 
 ///hasdata: state verisinin hazır olup/var olup olmadığını haber vermerkten sorumlu.
 ///sacces : istenen verinin düzgün gelip gelmediğinden sorumlu.Talep edilen veri gelmiş (hasdata=true) fakat try catch te hata olmuş olabilir(success=false durumu)
-///State sınıfının tüm metodları(OpSt hariç) future dondurmelidir.Bu sayede hasdata ve sacces düzgün bişekilde çalışır.
 
 ///her state StWsBase den extends almak zorundadir.
 /// state deki değişim için gerekli işler statin op si tarafından gerekleştirilir.Basit değişimler hariç state metodaları yalın olmalıdır.
